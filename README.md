@@ -26,7 +26,7 @@ require":
 
 4. Run the selenium-server-standalone with the following command. 
 ```
-java -jar selenium-server-standalone-3.141.59.jar
+java -jar <Your-selenium-server-file-name>.jar
 ```
 
 5. Run newIPG.php or failCard.php file with the appropriate command. 

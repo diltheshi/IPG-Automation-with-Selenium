@@ -69,6 +69,6 @@ class NewIPG extends TestCase{
         //pay button
         $payBtn2 = $this->webDriver->findElement(WebDriverBy::xpath('//*[@id="app"]/div[2]/div/div/div[1]/div[2]/div[5]/div/div/button'));
         $payBtn2->click();
-        sleep(10);   
+        sleep(20);   
     }
 }
