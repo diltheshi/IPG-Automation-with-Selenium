@@ -6,7 +6,9 @@ In this projet the Chrome browser is used for demonstration.
 ## Getting Started
 1. Clone this repository to your local directory.
 
-2. Create a Composer.json file and add the following dependencies using it. 
+2. Include ``selenium-helpers`` folder inside the htdocs folder of the XAMPP server.
+
+3. Create a Composer.json file and add the following dependencies using it. 
 The Composer.json file has to contain the following.
 
 ```
@@ -19,17 +21,16 @@ require":
     "symfony/symfony":"4.4"
 }
 ```
-
-3. Run XAMPP server. 
+4. Run XAMPP server. 
 
     Navigate to your local directory from the command prompt,
 
-4. Run the selenium-server-standalone with the following command. 
+5. Run the selenium-server-standalone with the following command. 
 ```
 java -jar <Your-selenium-server-file-name>.jar
 ```
 
-5. Run newIPG.php or failCard.php file with the appropriate command. 
+6. Run newIPG.php or failCard.php file with the appropriate command. 
 Eg. 
 ```
 .\vendor\bin\phpunit newIPG.php
