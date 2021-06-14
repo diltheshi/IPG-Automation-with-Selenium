@@ -1,5 +1,5 @@
 # IPG Automation with Selenium
-In this projet the chrome browser is used for demonstration.
+In this projet the Chrome browser is used for demonstration.
 > NOTE: You must have selenium-server-standalone to run this application.
 
 >NOTE: JAVA should be available in your machine.
